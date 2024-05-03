@@ -1,0 +1,50 @@
+.head-text {
+    position: relative;
+}
+
+.text-on-image {
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.subtitle {
+    color: #BE123C;
+    text-indent: 20px;
+}
+
+.text-on-image #texti {
+    text-indent: -50px;
+    font-size: 20px;
+}
+
+.head-image img {
+    height: 90vh;
+    width: 100vw;
+}
+
+span {
+    display: flex;
+    gap: 15px;
+}
+
+span #redbg {
+    background-color: #BE123C;
+    padding: 15px 40px;
+}
+
+span #redbg:hover {
+    background-color: #8a0023;
+}
+
+span #redtxt {
+    color: #BE123C;
+    padding: 15px 40px;
+    background-color: #fff;
+    font-size: 15px;
+}

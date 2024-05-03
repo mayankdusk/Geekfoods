@@ -1,0 +1,31 @@
+.house-photo {
+    display: flex;
+}
+
+.house-photo img {
+    height: 60%;
+    width: 50vw;
+    padding: 100px 0px 100px 50px;
+}
+
+.shadow-desc {
+    padding: 100px;
+    position: absolute;
+    top: 115%;
+    right: 2%;
+}
+
+.shadow-desc p{
+   opacity: 0.6;
+} 
+
+#gettouch{
+    background-color: #4f46e5;
+}
+
+#gettouch:hover {
+    background-color: #fff;
+    color: #4f46e5;
+    border-style: solid ;
+}
+
